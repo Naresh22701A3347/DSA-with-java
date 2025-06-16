@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class InputExample {
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
-		Scanner sc =new Scanner(System.in);
+		sc = new Scanner(System.in);
 		System.out.println("enter the age ");
 		int age =sc.nextInt();
 		sc.nextLine();

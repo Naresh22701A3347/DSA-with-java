@@ -16,7 +16,7 @@ public class AdvanceGraph {
 		void printGraph() {
 			for(int node : adjlist.keySet()) {
 				
-				System.out.print?("Node"+node+"is connected to :");
+				System.out.println("Node"+node+"is connected to :");
 			for(int neighbor :adjlist.get(node)) {
 				System.out.print(neighbor + " ");
 			}

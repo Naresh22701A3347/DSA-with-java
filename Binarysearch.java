@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Binarysearch {
 
     public static void main(String[] args) {
-        String[] names = {"anit", "divya", "karan", "priya", "zoya"};
+        String[] names = {"Naresh", "divya", "karan", "priya", "zoya"};
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the name:");
         String userInput = scanner.nextLine();

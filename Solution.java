@@ -22,5 +22,3 @@ public class Solution {
         System.out.println("Indices: " + Arrays.toString(result));
     }
 }
-000
-0
